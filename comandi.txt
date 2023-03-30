@@ -1,0 +1,30 @@
+   97  git commit -m "aggiunto testo cambiato"
+   98  git merge newFeature-Navbar 
+   99  git status
+  100  git add .
+  101  git commit -m "conflitto in corso"
+  102  git log --graph --oneline
+  103  git push origin master 
+  104  cd ../
+  105  clear
+  106  git clone https://github.com/sena-meucci/progettoStampa.git
+  107  ls *
+  108  cd progettoStampa/
+  109  nano stampa.cpp 
+  110  git init
+  111  git config user.name "Gonz41"
+  112  git config user.email  "gonzalez.alessandro@itismeucci.com"
+  113  git status
+  114  git add .
+  115  git commit -m "inserito nome"
+  116  nano stampa.cpp 
+  117  git branch BugFix
+  118  git checkout BugFix 
+  119  nano stampa.cpp 
+  120  git add .
+  121  git commit -m "errore risolto in stampa"
+  122  git checkout master 
+  123  git merge BugFix 
+  124  git log
+  125  git branch -d BugFix 
+  126  history 30 > comandi.txt
